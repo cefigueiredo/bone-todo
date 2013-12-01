@@ -2,7 +2,7 @@ bone-todo
 =========
 Simple Backbone and Rails To-do list.
 
-That project is just to practice Backbone and Rails integration, so if do you have something to mention or advice to give... Don't be shy! I'm completelly open to receive advices and critics (I prefer critics with advices to improve my code, please...)
+This project is just to practice Backbone and Rails integration, so if do you have something to mention or advice to give... Don't be shy! I'm completelly open to receive advices and critics (I prefer critics with advices to improve my code, please...)
 
 Requirements
 ------------

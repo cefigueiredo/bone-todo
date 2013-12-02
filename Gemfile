@@ -27,13 +27,13 @@ gem 'jquery-rails'
 gem 'backbone-rails'
 
 group :test do
-	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'capybara-webkit'
 end
 
 group :test, :development do
 	gem 'jasmine'
+	gem 'rspec-rails'
 end
 
 # To use ActiveModel has_secure_password

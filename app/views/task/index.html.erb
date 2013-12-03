@@ -1,0 +1,21 @@
+<header>
+<h1>Hey Mothafok'!!! Isso é o que vc tem pra fazer!!</h1>
+</header>
+
+<!-- tasks = new Tasks()
+tasks.reset($('.tasks').get('tasks')) -->
+
+<div class="tasks" data-tasks="<%= Task.all.to_json %>" >
+	<input type="text" />
+	<input type="submit" value="OK" />
+	<div class="todo">
+	</div>
+	<div class="done">
+	</div>
+
+	<script id="task-template" type="text/template">
+		<div class="task">
+			<%%= name %>
+		</div>
+	</script>
+</div>

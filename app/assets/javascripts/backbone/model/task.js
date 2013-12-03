@@ -1,7 +1,9 @@
 var Task = Backbone.Model.extend({
-	isDone: true,
+	defaults: {
+		is_done: false
+	},
 
 	setDone: function() {
-		isDone = true;
+		this.set('is_done', true)
 	}
 });

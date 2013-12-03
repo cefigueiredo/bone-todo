@@ -1,0 +1,5 @@
+t = new Task({ name: "Qualquer coisa"} )
+child {cid: "c1", attributes: Object, _changing: false, _previousAttributes: Object, changed: Object…}
+tv = new TaskView({el: $('.tasks .todo') , model: t })
+child {cid: "view2", model: child, el: div.todo, options: Object, $el: jQuery.fn.jQuery.init[1]…}
+tv.render()

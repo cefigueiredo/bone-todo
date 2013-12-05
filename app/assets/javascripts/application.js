@@ -14,4 +14,12 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require backbone-rails
+//= require_directory ./backbone/models
 //= require_tree .
+
+$(function() {
+	window.tsks = new Tasks
+	window.tv = new TasksView({ collection: tsks })
+
+	$('.app').html(window.tv.render().el)
+})
